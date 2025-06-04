@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--PatientAppointmentActivity-->
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity6">
+    android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/btnTodayAppointments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Today's Appointments"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnHistoryUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="History Update"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnGenerateBill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Bill"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnPatientHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient History" />
+
+</LinearLayout>

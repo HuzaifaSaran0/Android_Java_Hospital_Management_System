@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
         loginButton.setOnClickListener(v -> {
             String username = Objects.requireNonNull(usernameField.getText()).toString();
             String password = Objects.requireNonNull(passwordField.getText()).toString();
@@ -52,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
         btnOpenPatient.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, MainActivity3.class);
+            Intent intent = new Intent(MainActivity.this, MainActivity6.class);
             startActivity(intent);
         });
 
