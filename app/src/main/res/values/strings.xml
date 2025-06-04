@@ -13,4 +13,9 @@
     <string name="gender">Gender</string>
     <string name="patient_name">Patient Name</string>
     <string name="view_bills_history">View Bills History</string>
+    <string name="charges">Charges</string>
+    <string name="additional_notes">Additional Notes</string>
+    <string name="hint_patient_name">Patient Name</string>
+    <string name="hint_appointment_date">Appointment Date</string>
+    <string name="button_generate_bill">Generate Bill</string>
 </resources>

@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--DOCTORS_TodaysAppointmentsActivity-->
+<!-- DOCTORS_TodaysAppointmentsActivity -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="24dp"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#FAFAFA">
 
     <TextView
         android:id="@+id/labelToday"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Today's Appointments"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:textColor="#37474F"
+        android:gravity="center"
         android:layout_marginBottom="16dp" />
 
     <ListView
         android:id="@+id/todaysAppointmentsList"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:divider="#BDBDBD"
+        android:dividerHeight="1dp"
+        android:background="#FFFFFF" />
 </LinearLayout>

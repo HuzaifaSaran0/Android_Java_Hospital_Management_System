@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Doctor_PatientHistoryActivity-->
+<!-- Doctor_PatientHistoryActivity -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:padding="24dp"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
 
     <TextView
         android:layout_width="match_parent"
@@ -12,10 +13,15 @@
         android:text="Patient History"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:layout_marginBottom="16dp"/>
+        android:textColor="#37474F"
+        android:layout_marginBottom="16dp" />
 
     <ListView
         android:id="@+id/listHistory"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#BDBDBD"
+        android:dividerHeight="1dp"
+        android:background="#FAFAFA" />
 </LinearLayout>

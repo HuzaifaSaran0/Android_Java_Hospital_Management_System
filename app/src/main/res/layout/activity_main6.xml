@@ -3,13 +3,26 @@
     android:orientation="vertical"
     android:padding="24dp"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor Dashboard"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#263238"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
 
     <Button
         android:id="@+id/btnTodayAppointments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Today's Appointments"
+        android:backgroundTint="#43A047"
+        android:textColor="#FFFFFF"
         android:layout_marginBottom="16dp" />
 
     <Button
@@ -17,6 +30,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="History Update"
+        android:backgroundTint="#039BE5"
+        android:textColor="#FFFFFF"
         android:layout_marginBottom="16dp" />
 
     <Button
@@ -24,12 +39,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Generate Bill"
+        android:backgroundTint="#FF8F00"
+        android:textColor="#FFFFFF"
         android:layout_marginBottom="16dp" />
 
     <Button
         android:id="@+id/btnPatientHistory"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Patient History" />
-
+        android:text="Patient History"
+        android:backgroundTint="#8E24AA"
+        android:textColor="#FFFFFF" />
 </LinearLayout>

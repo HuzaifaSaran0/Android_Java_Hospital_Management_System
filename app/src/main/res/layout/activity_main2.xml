@@ -2,7 +2,8 @@
 <!--activity_patient_creation-->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
 
     <LinearLayout
         android:orientation="vertical"
@@ -10,47 +11,63 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Patient Details"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
         <EditText
             android:id="@+id/inputName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/patient_name"
+            android:hint="Patient Name"
             android:inputType="textPersonName"
-            android:autofillHints="name"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:backgroundTint="#90CAF9" />
 
         <EditText
             android:id="@+id/inputAge"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/age"
+            android:hint="Age"
             android:inputType="number"
-            android:autofillHints="age"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#90CAF9" />
 
         <EditText
             android:id="@+id/inputGender"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/gender"
+            android:hint="Gender"
             android:inputType="text"
-            android:autofillHints="gender"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#90CAF9" />
 
         <EditText
             android:id="@+id/inputAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/address"
+            android:hint="Address"
             android:inputType="textPostalAddress"
-            android:autofillHints="postalAddress"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#90CAF9" />
 
         <Button
             android:id="@+id/btnSavePatient"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/save_patient"
-            android:layout_marginTop="24dp" />
+            android:text="Save Patient"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#2E7D32"
+            android:textColor="#FFFFFF" />
     </LinearLayout>
 </ScrollView>
+

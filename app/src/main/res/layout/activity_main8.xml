@@ -2,7 +2,8 @@
 <!--Doctor_HistoryUpdateActivity-->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,7 +17,9 @@
             android:layout_height="wrap_content"
             android:hint="Disease"
             android:inputType="text"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:backgroundTint="#9E9E9E"
+            android:padding="12dp" />
 
         <EditText
             android:id="@+id/inputPrescription"
@@ -24,9 +27,11 @@
             android:layout_height="wrap_content"
             android:hint="Prescription"
             android:inputType="textMultiLine"
-            android:minHeight="48dp"
-            android:lines="3"
-            android:gravity="top" />
+            android:minHeight="96dp"
+            android:gravity="top"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#9E9E9E"
+            android:padding="12dp" />
 
         <EditText
             android:id="@+id/inputProgress"
@@ -34,15 +39,19 @@
             android:layout_height="wrap_content"
             android:hint="Progress Notes"
             android:inputType="textMultiLine"
-            android:minHeight="48dp"
-            android:lines="3"
-            android:gravity="top" />
+            android:minHeight="96dp"
+            android:gravity="top"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#9E9E9E"
+            android:padding="12dp" />
 
         <Button
             android:id="@+id/btnSaveHistory"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Save History"
-            android:layout_marginTop="24dp" />
+            android:layout_marginTop="32dp"
+            android:backgroundTint="#0288D1"
+            android:textColor="#FFFFFF" />
     </LinearLayout>
 </ScrollView>

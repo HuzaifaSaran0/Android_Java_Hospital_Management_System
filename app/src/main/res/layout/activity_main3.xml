@@ -3,7 +3,18 @@
     android:orientation="vertical"
     android:padding="24dp"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Information"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#37474F"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
 
     <TextView
         android:id="@+id/textName"
@@ -11,7 +22,8 @@
         android:layout_height="wrap_content"
         android:text="Name:"
         android:textSize="18sp"
-        android:padding="8dp" />
+        android:padding="8dp"
+        android:textColor="#000000" />
 
     <TextView
         android:id="@+id/textAge"
@@ -19,7 +31,8 @@
         android:layout_height="wrap_content"
         android:text="Age:"
         android:textSize="18sp"
-        android:padding="8dp" />
+        android:padding="8dp"
+        android:textColor="#000000" />
 
     <TextView
         android:id="@+id/textGender"
@@ -27,7 +40,8 @@
         android:layout_height="wrap_content"
         android:text="Gender:"
         android:textSize="18sp"
-        android:padding="8dp" />
+        android:padding="8dp"
+        android:textColor="#000000" />
 
     <TextView
         android:id="@+id/textAddress"
@@ -35,13 +49,15 @@
         android:layout_height="wrap_content"
         android:text="Address:"
         android:textSize="18sp"
-        android:padding="8dp" />
+        android:padding="8dp"
+        android:textColor="#000000" />
+
     <Button
         android:id="@+id/btnBills"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/view_bills_history"
-        android:layout_marginTop="16dp"/>
-
-
+        android:text="View Bills History"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#0288D1"
+        android:textColor="#FFFFFF" />
 </LinearLayout>
